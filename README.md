@@ -20,13 +20,13 @@ To make a webdev folder simply create a folder call webdev on the same level as 
 Now to setup the project in ur Ryerson account to start working on it I am going to break this up into 2 parts.  
 One if you are using Putty or some sort of ssh to access your Ryerson account and one for FileZilla or FTP access.  
 
-#For SSH or Putty:  
+####For SSH or Putty:  
 1. open up the webdev folder  
 2. type 'git clone https://github.com/afamai/cps530proj' without the quotes (I am pretty sure everyone have git install on their accounts)  
 3. now there should be a cps530proj folder. Type this into ur browser 'webdev.scs.ryerson.ca/~userid/cps530proj/pages/home.php' (userid shold be your comp sci id)  
 4. Now you can see the webpages  
 
-#For FTP:  
+####For FTP:  
 1. clone the project to anywhere you want on your computer.  
 2. open up FileZilla or any kind of FTP program and connect to the Ryerson server.  
 3. open up the webdev folder.  
