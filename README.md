@@ -20,13 +20,13 @@ To make a webdev folder simply create a folder call webdev on the same level as 
 Now to setup the project in ur Ryerson account to start working on it I am going to break this up into 2 parts.  
 One if you are using Putty or some sort of ssh to access your Ryerson account and one for FileZilla or FTP access.  
 
-For SSH or Putty:  
+#For SSH or Putty:  
 1. open up the webdev folder  
 2. type 'git clone https://github.com/afamai/cps530proj' without the quotes (I am pretty sure everyone have git install on their accounts)  
 3. now there should be a cps530proj folder. Type this into ur browser 'webdev.scs.ryerson.ca/~userid/cps530proj/pages/home.php' (userid shold be your comp sci id)  
 4. Now you can see the webpages  
 
-For FTP:  
+#For FTP:  
 1. clone the project to anywhere you want on your computer.  
 2. open up FileZilla or any kind of FTP program and connect to the Ryerson server.  
 3. open up the webdev folder.  
@@ -38,12 +38,12 @@ For FTP:
 From here on out you can start working on your parts. You can use whatever method that suits you. For example you can work on all the files on your computer and copy everything to your webdev folder to check.  
 Or you can do everything on the server or something watev suits you. The most efficient way I found was to just use FileZilla and dragged the folder over to your Ryerson account and check like that.  
 
-Anyways here is a list of git commands you most likely to use:  
+###Anyways here is a list of git commands you most likely to use:  
 git add [files] --to add the files to your local git  
 git commit -m 'message' --to commit it to your local git and create a message for it (what have you done or changes you made)  
 git push origin master --to push your work to the master git so anyone pulling can see the changes you made  
 git remote add origin [link] --to set origin as the link to the github, [link] should be https://github.com/afamai/cps530proj  
 git remote -v --to check the current links  
 
-IMPORTANT NOTE: you do not have to clone everytime to see the updates.  
+###IMPORTANT NOTE: you do not have to clone everytime to see the updates.  
 simply open up the git folder, which is the 'cps530proj' folder, and type 'git pull origin'  
