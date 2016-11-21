@@ -1,14 +1,14 @@
 ###This is the new setup we gonna use for the project.
 
->Who is working on what:
->Deborah - pages/home.php
->Alpha - pages/install.php
->Alpha/Jason -pages/tutorial.php
->Alpha/Jason -pages/examples.php
->Melanie - pages/conclusion.php
->Bhoomi - css/style.css (feed free to change the css file and replace it with something else, just make sure to edit the include/header.php file)
->Anyone - pages/credits.php
->(see http://cps530.scs.ryerson.ca/project/cps530_prj_f16.html for the requirements of each page)
+Who is working on what:  
+Deborah - pages/home.php  
+Alpha - pages/install.php  
+Alpha/Jason -pages/tutorial.php  
+Alpha/Jason -pages/examples.php  
+Melanie - pages/conclusion.php  
+Bhoomi - css/style.css (feed free to change the css file and replace it with something else, just make sure to edit the include/header.php file)
+Anyone - pages/credits.php
+(see http://cps530.scs.ryerson.ca/project/cps530_prj_f16.html for the requirements of each page)
 
 HOW TO SETUP THE WEBPAGES ON YOUR RYERSON ACCOUNT.
 
