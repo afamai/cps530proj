@@ -2,7 +2,7 @@
 
 $content = <<<EOF
 <h1>Installation</h1>
-
+<p>This guide is to show you how to install Laravel and serve it on your local machine.</p>
 <h3>Server Requirements</h3>
 
 <p>Before installing the Laravel framework. There are some server requirements that must be meet in order for Laravel to work.</p>
@@ -22,7 +22,7 @@ $content = <<<EOF
 Essentially Composer allows us to install libraries we need for our project, more info <a target="_blank" href="https://getcomposer.org/doc/00-intro.md">here</a>.</p>
 <p>After installing Composer into your system, type <code><kbd>composer</kbd></code> into your terminal or command prompt.</p>
 
-<p>You should get somthing like this. As you can see it displays how to use Composer along with the available commands.<img src="../images/composerEX.png"></img></p>
+<p>You should get somthing like this. As you can see it displays how to use Composer along with the available commands.<img src="../images/composerEx.png"></img></p>
 
 <h3>Installing Laravel</h3>
 <p>There are 2 ways to create your Laravel projects</p>
@@ -46,6 +46,21 @@ directory. Make sure you to place the directory into your \$PATH so you can use 
 <p>To check type <code><kbd>laravel</kbd></code> into your terminal. You should see this.</p>
 <img src="../images/laravelEx.png"></img>
 <p>Now that you have access to the Laravel installer, it is time to create fresh Laravel installation.</p>
+<p>Type <code><kbd>laravel new [directory]</kbd></code> and now the directory you specified contains a fresh new Laravel installation.</p>
+
+<h4>2. Through Composer Create-Project</h4>
+
+<p>Another way to create a new Laravel installation is using the create-project command in Composer.</p>
+<code><kbd>composer create-project laravel/laravel [directory]</kbd></code><br>
+
+<p>Now you if you check the directory with Laravel installed you should see the following folders and files created.</p>
+<img src="../images/laravelFolder.png"></img>
+<h4>Local Development Server</h4>
+<p>If you have PHP installed into your local machine you can use the <code>serve</code> command in Artisan to serve the application locally. This command would start a
+local development server at <code>http://localhost:8000</code></p>
+<code><kbd>php artisan serve</kbd></code><br>
+<img src="../images/laravel.png"></img>
+<p>There are other ways to host your application locally. Take a look at <a href="http://www.ampps.com/">AMPPS</a> for more info on what is does and how to install it. </p>
 
 EOF;
 
