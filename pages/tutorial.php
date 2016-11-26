@@ -1,8 +1,8 @@
 <?php
 
 $content = <<<EOF
-<h1>TUTORIAL</h1>
+<h1>Something</h1>
 EOF;
 
-include '../layouts/default.php';
+include '../layouts/default2.php';
 ?>
