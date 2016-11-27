@@ -12,7 +12,7 @@
         <div class="col-sm-2">
   			  <ul class="nav nav-sidebar">
   					<li><a href="directorystruct.php">Directory Structure</a></li>
-  					<li><a href="directorystruct.php">something</a></li>
+  					<li><a href="bladetemp.php">Blade Template</a></li>
   					<li><a href="directorystruct.php">something</a></li>
   					<li><a href="directorystruct.php">something</a></li>
   				</ul>
