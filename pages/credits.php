@@ -12,7 +12,9 @@ $content = <<<EOF
 	<p> Created this Credits page </p><br>
 
 	<h3> Alpha Mai </h3>
-	<p> Tutorial & Created Installation Page </p><br>
+	<p> Tutorial </p>
+  <p> Created Installation Page </p>
+  <p> Created Example Pages </p><br>
 
 	<h3> Jason Vu  </h3>
 	<p> Tutorial </p><br>
