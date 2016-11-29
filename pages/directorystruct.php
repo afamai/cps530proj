@@ -1,4 +1,5 @@
 <?php
+$active = array("","",'class="active"',"","","");
 $title = '<h1>Directory Structure</h1>';
 $content = <<<EOF
 <h2>Introduction</h2>

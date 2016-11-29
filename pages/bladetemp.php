@@ -1,5 +1,5 @@
 <?php
-
+$active = array("","",'class="active"',"","","");
 $title = '<h1>Blade Templates</h1>';
 $content = <<<EOF
 <h3>Introduction</h3>
@@ -13,7 +13,7 @@ plain PHP code. All Blade views are compiled into plain PHP code which are cache
     return view('hello', ['name' => 'Laravel']);<br>
 });</code></pre>
 
-<p>Hello, {{ \$name }}.</p>
+<pre><code>Hello, {{ \$name }}.</code></pre>
 
 <h4>If Statements</h4>
 <p>Blade provides a short and clean way to write PHP control structures. If statements can be written with the <code>@if</code>, <code>@elseif</code>, <code>@else</code>, and <code>@endif</code> directives.

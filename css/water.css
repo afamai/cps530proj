@@ -1,0 +1,16 @@
+#horizontal-scroll {
+width: 100%;
+height: 100%;
+background: url(../images/orange.jpg);
+/*(http://www.graphicsfuel.com/wp-content/uploads/2014/09/polygon-background6-preview.jpg);*/
+/*(https://i.ytimg.com/vi/YT93Trvl63c/maxresdefault.jpg);*/
+/*(http://images.wisegeek.com/watercolor-yellow-and-blue-paint.jpg);*/
+-webkit-animation: backgroundScroll 20s linear infinite;
+animation: backgroundScroll 20s linear infinite;
+}
+@keyframes backgroundScroll {
+from {background-position: 0 100px;}
+to {background-position: -400px 100px;}
+}
+
+/* https://www.concrete5.org/application/files/9914/5391/9996/homepage_trial_background.jpg */

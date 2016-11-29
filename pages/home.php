@@ -1,5 +1,5 @@
 <?php
-
+$active = array('class="active"',"","","","","");
 $content = <<<EOF
 <h2>Introduction</h2>
 	<h4> Fun Facts </h4>
@@ -12,7 +12,8 @@ $content = <<<EOF
 			<li> Taylor Otwell (the creator) created Laravel to
 			provide advanced alternative to the CodeIgniter framework </li>
 			<div>
-			<img src="../images/gG1ixpEQ.jpg" alt="Taylor" style="width:386px;height:300px">
+			<img src="../images/gG1ixpEQ.jpg" alt="Taylor" style="width:386px;height:auto
+			">
 			</div>
 			<li>It makes Web Development quick and easy</li>
 
@@ -49,11 +50,11 @@ $content = <<<EOF
 			<li> Templates are user-friendly and can build efficient web applications. It includes widgets
 			with CSS and JS codes.</li>
 			<li> Blade templates use <strong> .blade.php </strong> extension </li>
-			<img src="../images/Laravel_drupal_blade-views-3.png" alt="Blade template" style="width:641px;height:308px">
+			<img src="../images/Laravel_drupal_blade-views-3.png" alt="Blade template" style="width:641px;height:auto">
 
 			<li>It uses a Model View Controller (MVC) that takes care of development aspects of any application built.
 			This allows the Laravel developer to write good, clean code! </li>
-			<img src="../images/315196-635618397880493050_338x600_thumb.jpg" alt="MVC" style="width:599px;height:337px">
+			<img src="../images/315196-635618397880493050_338x600_thumb.jpg" alt="MVC" style="width:599px;height:auto">
 
 			<li>Laravel comes with built-in tools that have functions like authentication, routing, caching and more!</li>
 
@@ -93,7 +94,7 @@ $content = <<<EOF
 			<li> Larasocial </li>
 			<img src="../images/Larasocial.png" alt="Larasocial" style="width:689px;height:350px">
 			<li> Neighbourhood Lender</li>
-			<img src="http://scs.webstatsdomain.org/?url=neighborhoodlender.com" alt="Neighbourhood Lender"style="width:320px;height:240px">
+			<img src="../images/neighborhoodlender.jpeg" alt="Neighbourhood Lender"style="width:320px;height:auto">
 
 
 

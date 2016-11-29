@@ -1,4 +1,5 @@
 <?php
+$active = array("","",'class="active"',"","","");
 $title = '<h1>Routing</h1>';
 $content = <<<EOF
 <h2>Introduction</h2>
@@ -28,7 +29,7 @@ Route::options(uri, callback);
 <pre><code>Route::get('hello', function () {
     echo 'Hello World';
 });</code></pre>
-<p>Save it and go to <code>http://localhost:8000/hello</code> or try it at INSERT_LINK_HERE if you haven't set up laravel. The page should output 'Hello World'.</p>
+<p>Save it and go to <code>http://localhost:8000/hello</code> or try it at https://laraveldemo.000webhostapp.com/hello if you haven't set up laravel. The page should output 'Hello World'.</p>
 <img src="../images/routeImg1.png" ></img>
 
 <h3>Route Parameters</h3>
@@ -58,7 +59,7 @@ in case if a variable was not typed in. </p>
 <img src="../images/routeImg3.png"></img>
 <p>And here it is without the paramter</p>
 <img src="../images/routeImg4.png"></img>
-<p>Feel free to try this example out at INSRT_LINK_HERE</p>
+<p>Feel free to try this example out at https://laraveldemo.000webhostapp.com/user</p>
 EOF;
 
 include '../layouts/sidebar.php';

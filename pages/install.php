@@ -1,5 +1,5 @@
 <?php
-
+$active = array("",'class="active"',"","","","");
 $content = <<<EOF
 <h1>Installation</h1>
 <p>This guide is to show you how to install Laravel and serve it on your local machine.</p>
