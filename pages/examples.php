@@ -19,9 +19,10 @@ https://laraveldemo.000webhostapp.com/test/{str?}</p>
 <br><br>
 <p><a target="_blank" href="https://laraveldemo.000webhostapp.com/demo">Simple Page Demo</a>. The route contains
 2 paramters https://laraveldemo.000webhostapp.com/demo/{title?}/{num?}</p>
-<br>
-<br>
 EOF;
-
+for($i = 0; $i < 25; $i++)
+{
+	$content = $content. "<br>";
+}
 include '../layouts/default.php';
 ?>

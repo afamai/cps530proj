@@ -21,10 +21,10 @@ a built in feature. Click <a href="bladetemp.php">here</a> for more info.</p>
 <br>
 <u><h4>Did you regret your choice of framework/CMS?</h4></u>
 <p>Haha...Yeah. There are more suitable frameworks for this assignment. </p>
-<br>
-<br>
-<br>
-EOF;
 
+EOF;
+for($i = 0 ; $i < 10 ; $i++){
+       $content = $content."<br>";
+}
 include '../layouts/default.php';
 ?>

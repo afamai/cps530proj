@@ -18,8 +18,7 @@
 
   }
   .extend{
-    opacity:0.6;
-    background:#ffcc99;
+    background: rgba(255, 204, 153, 0.6);
   }
   li a{
     color:#009900;

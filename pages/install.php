@@ -60,8 +60,9 @@ directory. Make sure you to place the directory into your \$PATH so you can use 
 local development server at <code>http://localhost:8000</code></p>
 <code><kbd>php artisan serve</kbd></code><br>
 <img src="../images/laravel.png"></img>
-<p>There are other ways to host your application locally. Take a look at <a href="http://www.ampps.com/">AMPPS</a> for more info on what is does and how to install it. </p>
 <br>
+<br>
+<p>There are other ways to host your application locally. Take a look at <a target="_blank" href="http://www.ampps.com/">AMPPS</a> for more info on what is does and how to install it. </p>
 <br>
 <br>
 EOF;
